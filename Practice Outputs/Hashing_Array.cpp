@@ -36,7 +36,7 @@ int main()
    cin >> number;
 
    // fetch
-   cout << "Output = "<< hash[number] << endl;
+   cout << "Output = "<< hashh[number] << endl;
 
  }
 return 0;
