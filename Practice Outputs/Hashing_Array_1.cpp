@@ -34,7 +34,7 @@ int main()
  while(t--)
  {
    int number;
-   cin >> number
+   cin >> number;
 
    // fetch
    cout << "Output = "<< hashh[number] << endl;
