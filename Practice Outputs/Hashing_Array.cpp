@@ -8,7 +8,7 @@ int main()
  cout << "What is the size of the array = ";
  cin >> n;
 
- cout << "Print the array" << endl;
+ cout << "Enter the array" << endl;
 
  // Array is declared inside the Main Class
  // Inside Main Class Size of Array can me 10^6 maximum

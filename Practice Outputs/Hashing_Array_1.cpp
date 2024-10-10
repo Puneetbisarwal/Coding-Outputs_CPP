@@ -12,7 +12,7 @@ int main()
  cout << "What is the size of the array = ";
  cin >> n;
 
- cout << "Print the array" << endl;
+ cout << "Enter the array" << endl;
 
  int arr[n];
  for(int i=0;i<n;i++)
