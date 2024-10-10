@@ -19,6 +19,7 @@ int main()
 		{
 			cin >> arr[i];
 		}
+
  // precompute
 
  for(int i=0; i<n; i++)
@@ -33,7 +34,8 @@ int main()
  while(t--)
  {
    int number;
-   cin >> number;
+   cin >> number
+
    // fetch
    cout << "Output = "<< hashh[number] << endl;
 

@@ -9,6 +9,7 @@ int main()
  cin >> n;
 
  cout << "Print the array" << endl;
+
  // Array is declared inside the Main Class
  // Inside Main Class Size of Array can me 10^6 maximum
  int arr[n];
@@ -16,6 +17,7 @@ int main()
 		{
 			cin >> arr[i];
 		}
+
  // precompute
 
  int hash [13] = {0};
@@ -32,6 +34,7 @@ int main()
  {
    int number;
    cin >> number;
+
    // fetch
    cout << "Output = "<< hash[number] << endl;
 
