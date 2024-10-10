@@ -29,7 +29,7 @@ int main()
  int t;
  cout << "How many Queries are there = ";
  cin>>t;
- cout << "Print the Queries = ";
+ cout << "Enter the Queries = ";
  while(t--)
  {
    int number;
