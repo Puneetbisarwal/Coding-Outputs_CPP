@@ -9,12 +9,12 @@ int main()
  cin >> s;
 
  // precompute
- // ASCII Character using Lower Case a = 97 till z = 122
- // ASCII Character using Upper Case A = 65 till Z = 90
- int hash [26] = {0};
+ // Using All 256 ASCII Characters
+
+ int hash [256] = {0};
  for(int i=0; i<s.size(); i++)
  {
-   hash[s[i] - 'a']++;
+   hash[s[i]]++;
  }
 
  int t;
@@ -27,7 +27,7 @@ int main()
    cin >> c;
 
    // fetch
-   cout << "Output = "<< hash[c-'a'] << endl;
+   cout << "Output = "<< hash[c] << endl;
 
  }
 return 0;
