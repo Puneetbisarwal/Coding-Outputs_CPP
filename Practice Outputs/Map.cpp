@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Time Complexity of Maps Operations for Storing and Fetching is O(log N) for Best Case, Average Case and Worst Case
+
 int main()
 {
  int n;
@@ -12,7 +14,6 @@ int main()
 
  // Array is declared inside the Main Class
  // Inside Main Class Size of Array can me 10^6 maximum
-
  int arr[n];
  for(int i=0;i<n;i++)
 		{

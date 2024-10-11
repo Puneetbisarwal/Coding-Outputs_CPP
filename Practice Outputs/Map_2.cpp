@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Time Complexity of Maps Operations for Storing and Fetching is O(log N) for Best Case, Average Case and Worst Case
+
 int main()
 {
  int n;
